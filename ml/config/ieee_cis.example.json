@@ -1,0 +1,11 @@
+{
+  "transaction_path": "../data/ieee_cis/train_transaction.csv",
+  "identity_path": "../data/ieee_cis/train_identity.csv",
+  "encoding": "utf-8-sig",
+  "chunk_rows": 10000,
+  "max_bytes_per_file": 1000000000,
+  "max_rows_per_file": 1000000,
+  "max_columns_per_file": 500,
+  "max_retained_memory_bytes": 3000000000,
+  "optimize_categories": true
+}

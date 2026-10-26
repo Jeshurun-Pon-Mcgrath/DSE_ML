@@ -1,0 +1,7 @@
+TransactionID,DeviceType,DeviceInfo,id_12
+1001,desktop,synthetic-device-A,Found
+1002,mobile,synthetic-device-B,Found
+1004,,,
+1005,desktop,synthetic-device-C,NotFound
+1008,mobile,synthetic-device-D,Found
+9999,desktop,synthetic-orphan,Found

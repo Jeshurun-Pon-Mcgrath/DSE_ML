@@ -1,0 +1,13 @@
+event_key,party_key,occurred,value,label,channel,unchanged
+0001,A001,2024-01-01T00:00:00Z,10,legit,online,fixed
+0002,A001,2024-01-01T01:00:00Z,20,legit,store,fixed
+0003,A002,2024-01-02T02:00:00Z,30,legit,online,fixed
+0004,A002,2024-01-02T03:00:00Z,40,legit,store,fixed
+0005,A001,2024-01-03T04:00:00Z,50,legit,online,fixed
+0006,A003,2024-01-03T05:00:00Z,60,legit,store,fixed
+0007,A003,2024-01-04T06:00:00Z,70,legit,online,fixed
+0008,A001,2024-01-04T07:00:00Z,80,legit,,fixed
+0009,A004,2024-01-05T08:00:00Z,90,legit,store,fixed
+0010,A004,2024-01-05T09:00:00Z,500,fraud,online,fixed
+0011,A002,2024-01-06T10:00:00Z,900,fraud,online,fixed
+0001,A001,2024-01-01T00:00:00Z,10,legit,online,fixed

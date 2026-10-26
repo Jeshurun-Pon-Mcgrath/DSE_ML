@@ -1,0 +1,40 @@
+# JavaScript and build output
+node_modules/
+dist/
+*.tsbuildinfo
+coverage/
+.vite/
+# Python and local tooling
+.venv/
+venv/
+__pycache__/
+*.py[cod]
+*.egg-info/
+build/
+.pytest_cache/
+.ruff_cache/
+.mypy_cache/
+.coverage
+htmlcov/
+.tools/
+# Configuration and secrets
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+# Local datasets, notebooks and generated models (documentation is tracked)
+ml/data/**
+!ml/data/README.md
+ml/artifacts/**
+!ml/artifacts/README.md
+.ipynb_checkpoints/
+ml/config/*.local.json
+*.log
+# Editors and OS
+.idea/
+.vscode/*
+!.vscode/extensions.json
+!.vscode/settings.json
+.DS_Store
+Thumbs.db

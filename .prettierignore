@@ -1,0 +1,11 @@
+node_modules/
+dist/
+package-lock.json
+.venv/
+.tools/
+*.egg-info/
+__pycache__/
+.pytest_cache/
+.ruff_cache/
+ml/data/
+ml/artifacts/

@@ -1,0 +1,24 @@
+{
+  "name": "riskbyte",
+  "version": "0.1.0",
+  "private": true,
+  "workspaces": [
+    "apps/web"
+  ],
+  "engines": {
+    "node": "^22.13.0 || >=24.0.0",
+    "npm": ">=10"
+  },
+  "scripts": {
+    "dev": "npm run dev --workspace @riskbyte/web",
+    "test": "npm run test --workspace @riskbyte/web",
+    "typecheck": "npm run typecheck --workspace @riskbyte/web",
+    "lint": "npm run lint --workspace @riskbyte/web",
+    "build": "npm run build --workspace @riskbyte/web",
+    "format": "prettier --write .",
+    "format:check": "prettier --check ."
+  },
+  "devDependencies": {
+    "prettier": "3.9.9"
+  }
+}

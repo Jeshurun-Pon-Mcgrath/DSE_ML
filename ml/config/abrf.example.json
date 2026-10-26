@@ -1,0 +1,23 @@
+{
+  "grid_divisions": 10,
+  "confidence_curves": ["linear", "gated_0.5", "gated_0.75"],
+  "default_policy": "BALANCED",
+  "policies": {
+    "BALANCED": { "objective": "maximize_f1", "max_fpr": 0.01, "max_hard_negative_fpr": 0.05 },
+    "HIGH_RECALL": {
+      "objective": "maximize_recall",
+      "max_fpr": 0.02,
+      "max_hard_negative_fpr": 0.1
+    },
+    "STRICT": {
+      "objective": "minimize_false_positives",
+      "max_fpr": 0.005,
+      "max_hard_negative_fpr": 0.03,
+      "minimum_recall": 0.6
+    }
+  },
+  "preserve_scenarios": ["ACCOUNT_TAKEOVER", "MIXED_MODE"],
+  "risk_band_quantiles": [0.5, 0.9, 0.99, 0.999],
+  "reason_evidence_cutoff": 0.95,
+  "limited_confidence_cutoff": 0.5
+}

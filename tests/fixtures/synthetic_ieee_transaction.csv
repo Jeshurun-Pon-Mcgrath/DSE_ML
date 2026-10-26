@@ -1,0 +1,9 @@
+TransactionID,isFraud,TransactionDT,TransactionAmt,ProductCD,card1,card2,card3,card4,card5,card6,addr1,addr2,P_emaildomain,V127,fraud_status
+1001,0,0,10,W,11,21,31,visa,51,debit,61,71,example.test,1,0
+1002,0,60,20,W,11,21,31,visa,51,debit,61,71,example.test,2,0
+1003,1,120,90,W,11,21,31,visa,51,debit,61,71,example.test,3,1
+1004,0,180,15,W,11,21,31,visa,51,debit,61,71,example.test,4,0
+1005,0,3600,30,C,12,22,32,mastercard,52,credit,62,72,other.test,5,0
+1006,1,7200,200,C,12,22,32,mastercard,52,credit,62,72,other.test,6,1
+1007,0,86400,40,R,13,23,33,visa,53,debit,,73,,7,0
+1008,0,90000,50,R,13,23,33,visa,53,debit,63,73,third.test,8,0

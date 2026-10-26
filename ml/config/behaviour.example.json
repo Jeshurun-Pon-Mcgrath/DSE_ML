@@ -1,0 +1,16 @@
+{
+  "history_saturation": 20.0,
+  "minimum_history": 1,
+  "weights": {
+    "amount_deviation": 1.0,
+    "amount_zscore": 1.0,
+    "transaction_velocity": 1.0,
+    "long_window_velocity": 1.0,
+    "short_time_gap": 1.0,
+    "failed_attempts": 1.0,
+    "merchant_novelty": 1.0,
+    "device_novelty": 1.0,
+    "region_novelty": 1.0,
+    "product_novelty": 1.0
+  }
+}

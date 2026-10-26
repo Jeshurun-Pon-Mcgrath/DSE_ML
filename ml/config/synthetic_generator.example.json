@@ -1,0 +1,11 @@
+{
+  "preset": "medium",
+  "seed": 42,
+  "entity_count": 2000,
+  "merchant_count": 300,
+  "fraud_prevalence": 0.02,
+  "hard_negative_rate": 0.05,
+  "identity_coverage": 0.7,
+  "duration_days": 90,
+  "anonymized_feature_count": 0
+}

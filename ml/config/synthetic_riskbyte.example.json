@@ -1,0 +1,5 @@
+{
+  "transaction_path": "../data/synthetic_riskbyte/train_transaction.csv",
+  "identity_path": "../data/synthetic_riskbyte/train_identity.csv",
+  "metadata_path": "../data/synthetic_riskbyte/generation_metadata.json"
+}
